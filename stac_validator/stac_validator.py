@@ -303,7 +303,7 @@ class StacValidate:
 
         fpath = Path(stac_path)
 
-        Collections_Fields = ["keywords", "license", "title", "provider", "version", "description", "stac_version"]
+        Collections_Fields = ["keywords", "license", "title", "provider", "version", "description"]
 
         message = {}
         status = {
